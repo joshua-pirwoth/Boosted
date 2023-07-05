@@ -1,0 +1,77 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .bag {
+      width: 70%;
+      margin: auto;
+      margin-top: 60px;
+      padding: 48px 32px;
+      box-shadow: 0px 0px 10px #aaa;
+    }
+
+    h1.heading {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    span {
+      color: #faa500;
+    }
+
+    .converter {
+      margin: 20px;
+    }
+
+    .converter label {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+
+    .converter input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 32px;
+      width: 400px;    
+      border: none;
+      border-radius: 10px;
+      background-color: #eee;
+      margin-top: 10px;
+    }
+
+    input[type="text"]::placeholder {
+      color: #999;
+    }
+
+    .converter input[type="submit"] {
+      cursor: pointer;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: #faa500;
+      color: #fff;
+      font-size: 28px;
+      transition: 0.2s;
+    }
+
+    .converter input[type="submit"]:hover {
+      background-color: rgba(250, 165, 0, 0.9);
+    }
+
+    .converter input[type="submit"]:active {
+      background-color: rgba(250, 165, 0, 0.7);
+    }
+
+    .result {
+      margin-top: 10px;
+      font-size: 32px;
+      font-weight: bold;
+    }
