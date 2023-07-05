@@ -4,9 +4,6 @@ const ugxInput = document.getElementById('ugxInput');
 // Get the converted value generated into the element 'div.result'
 const resultElement = document.getElementById('result');
 
-// Add an event listener to the form submission (performs real-time conversion)
-// ugxInput.addEventListener('input', convertCurrency);
-
 function convertCurrency() {
   // Get the input value and convert it to a number
   const ugxAmount = parseFloat(ugxInput.value);
